@@ -6,6 +6,7 @@ class ProfileDetail extends Component {
         this.userName=props.data['firstName']+" "+ props.data['lastName'];
         this.address=this.getAddress(props.data);
         this.contact=this.getContact(props.data);
+        this.imageUrl=this.props.data['profileImage'];
         console.log("scroll y"+window.scrollY)
     }
     getAddress({ address: {country,city,state,streetAddress} }){
@@ -23,8 +24,8 @@ class ProfileDetail extends Component {
                         <div className="close-btn" onClick={this.props.handler}>X</div>
                     </div>
                     <div className="overlay-imgContainer">
-                        <img className="bg-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/jeremyworboys/128.jpg" alt=""/>
-                        <img className="profile-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/jeremyworboys/128.jpg" alt=""/>
+                        <img className="bg-image" src={this.imageUrl} alt=""/>
+                        <img className="profile-image" src={this.imageUrl} alt=""/>
                         <div className="profile-username">
                             <p>{this.props.data['firstName']+" "+this.props.data['lastName']}
                             </p>

@@ -49,7 +49,6 @@ class App extends React.Component{
           <Header/>
           <div className="card-container">
               { this.state.list.length!==0?this.state.list.map(({ id,firstName,lastName,profileImage })=> <ListItem clickHandler={()=>this.profileClickHandler(id)} key={id} name={firstName+lastName} img={profileImage} /> ):<p>loading..</p>}
-
           </div>
             { this.state.overlayStatus?<ProfileDetail data={this.getInfoById()[0]} handler={this.overlayCloseHandler}/>:null}
         </div>
