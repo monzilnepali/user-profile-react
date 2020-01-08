@@ -8,5 +8,5 @@
     padding-left: 10px;
 }
 .search-field:focus{
-    border:2px solid red;
+    border:1px solid red;
 }
