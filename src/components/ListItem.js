@@ -26,7 +26,7 @@ class ListItem extends Component {
                 {this.state.isImgLoaded?<img src={this.state.imgUrl}  alt=""/>:<img src={this.state.imgUrl}  alt=""/>}
                     <p className="user-name">{this.props.name}</p>
             </div>
-            
+
 
         );
     }

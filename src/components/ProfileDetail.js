@@ -33,7 +33,7 @@ class ProfileDetail extends Component {
                     </div>
                     <div className="overlay-profileInfo">
                         <div className="overlay-body-left">
-                            <h2>Address</h2>
+                            <p className="overlay-header">Address</p>
                             {Object.keys(this.address).map((key,index)=>
                                     <div className="info-item" key={key}>
                                     <div className="label">{key+":"}</div>
@@ -42,7 +42,7 @@ class ProfileDetail extends Component {
                             )}
                         </div>
                         <div className="overlay-body-right">
-                            <h2>Contact</h2>
+                            <p className="overlay-header">Contact</p>
                             {Object.keys(this.contact).map((key,index)=>
                                 <div className="info-item" key={key}>
                                     <div className="label">{key+":"}</div>
