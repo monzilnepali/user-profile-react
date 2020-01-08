@@ -15,12 +15,17 @@
 .card:hover{
     background-color:#f0f0f0;
 }
+
+.card:hover .user-name{
+    color:red;
+}
 .card img{
     height: 50px;
     width: auto;
     border-radius: 50%;
 
 }
-.card p{
+.card .user-name{
     padding-left: 20px;
+
 }

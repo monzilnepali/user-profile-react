@@ -5,7 +5,7 @@ class ListItem extends Component {
         return (
             <div className="card" onClick={this.props.clickHandler}>
                 <img src={this.props.img} alt=""/>
-                <p>{this.props.name}</p>
+                <p className="user-name">{this.props.name}</p>
             </div>
         );
     }
