@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f72fd10-1249-4c61-9c7d-49dae20e4630" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProfileDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfileDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/profileDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/profileDetail.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +85,8 @@
       <updated>1578401570812</updated>
       <workItem from="1578401572459" duration="17523000" />
       <workItem from="1578420326339" duration="151000" />
-      <workItem from="1578455988742" duration="11981000" />
+      <workItem from="1578455988742" duration="12985000" />
+      <workItem from="1578491822587" duration="536000" />
     </task>
     <servers />
   </component>
@@ -104,5 +102,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="238" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578413728427" />
+    <state x="341" y="193" key="run.anything.popup" timestamp="1578481470235">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="341" y="193" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1578481470235" />
   </component>
 </project>

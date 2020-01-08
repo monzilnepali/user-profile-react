@@ -12,14 +12,12 @@
 
 }
 .overlay-wrapper{
-    height: 55%;
-    width: 40%;
+    height: 45%;
+    width: 35%;
     background-color: white;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 5px;
 }
-
-
 .overlay-header{
     height: 10%;
     display: flex;
@@ -125,9 +123,13 @@
         width:90%;
         height: 90%;
     }
+    .overlay-imgContainer{
+        height: 40%;
+    }
     .overlay-profileInfo{
         flex-direction: column;
         padding:10px;
+        height: 50%;
     }
     .overlay-body-left{
         width: 100%;
@@ -139,11 +141,10 @@
     .info-item{
         font-size: 13px;
     }
-    .overlay-header{
-        justify-content: flex-start;
-    }
+
     .label{
         font-size: 12px;
     }
+
 
 }
