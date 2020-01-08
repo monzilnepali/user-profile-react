@@ -65,7 +65,7 @@ class App extends React.Component{
           <div className="body-container">
               <Search searchData={this.state.searchData} handler={this.searchInputChangeHandler}/>
           <div className="card-container">
-              { this.state.list.length!==0?this.filterData(this.state.list,this.state.searchData).map(({ id,firstName,lastName,profileImage })=> <ListItem clickHandler={()=>this.profileClickHandler(id)} key={id} name={firstName+lastName} img={profileImage} /> ):<p>loading..</p>}
+              { this.state.list.length!==0?this.filterData(this.state.list,this.state.searchData).map(({ id,firstName,lastName,profileImage })=> <ListItem clickHandler={()=>this.profileClickHandler(id)} key={id} name={firstName+lastName} img={profileImage} /> ):<div className="loading-ui-container"/>}
           </div>
           </div>
             { this.state.overlayStatus?<ProfileDetail data={this.getInfoById()[0]} handler={this.overlayCloseHandler}/>:null}
